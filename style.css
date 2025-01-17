@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/currencybg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} 
+
+/* h1 {
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 30rem 1rem 30rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+} */
+
+.container {
+    background-color: transparent;
+    color:lightblue;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height:45vh ;
+    width: 40vh;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select,
+button,
+input {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid black;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+} 
+
+.dropdown {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.select-container img {
+    max-width: 2rem; 
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid black; 
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+
+}
+
+.msg {
+    margin: 2rem 0 2rem 0;
+    color: black;
+}
+
+form button {
+    height: 3rem;
+    background-color:#6930c3; 
+    /* background-image: url("/currencybtn.jpg"); */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    color: #fff;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
